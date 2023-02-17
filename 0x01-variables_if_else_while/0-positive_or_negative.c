@@ -12,8 +12,7 @@ int main(void)
 {
 int n;
 srand(time(NULL));
-n = rand() - RAND_MAX / 2;
-printf("%d\n", n);
+n = rand() - RAND_MAX / 2;printf("%d\n", n);
 if (n > 0)
 {
 printf("is positive\n");
